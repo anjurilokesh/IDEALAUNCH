@@ -36,14 +36,6 @@ Open `index.html` in a modern browser. No packages, build step, or server are re
 
 For the demo login, enter any name of at least two characters and any password of at least six characters.
 
-## Deploy on GitHub and Netlify
-
-1. Create a new GitHub repository and upload this project’s files.
-2. In Netlify, select **Add new site** → **Import an existing project**.
-3. Connect GitHub and choose the repository.
-4. Leave the build command blank and set the publish directory to the repository root (`.`).
-5. Click **Deploy site**. Netlify will provide the live link.
-
 ## JavaScript concepts demonstrated
 
 The project uses arrays and objects for idea data, `map()` to render UI, `filter()` for search/categories/saved ideas, `find()` to select an idea for its details page, plus DOM manipulation, event handlers, form validation, URL parameters, and `sessionStorage`.
