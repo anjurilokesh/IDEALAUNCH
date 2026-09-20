@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IDEALAUNCH - Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+        IDEA<span>LAUNCH</span>
+    </div>
+
+    <div class="nav-links">
+        <a href="dashboard.html">Dashboard</a>
+        <a href="explore.html">Explore</a>
+        <a href="saved.html">Saved</a>
+        <a href="profile.html">Profile</a>
+        <button class="logout">Logout</button>
+    </div>
+
+</nav>
+
+<main class="container">
+
+    <section class="hero">
+
+        <h1>
+            Welcome,
+            <span class="user-name">User</span> 👋
+        </h1>
+
+        <p>
+            Explore innovative startup ideas and discover
+            your next opportunity.
+        </p>
+
+    </section>
+
+    <section class="stats">
+
+        <div class="stat">
+            <h2>06</h2>
+            <p>Total Ideas</p>
+        </div>
+
+        <div class="stat">
+            <h2>05</h2>
+            <p>Categories</p>
+        </div>
+
+        <div class="stat">
+            <h2>★</h2>
+            <p>Save Your Ideas</p>
+        </div>
+
+    </section>
+
+    <h2>Featured Ideas</h2>
+
+    <br>
+
+    <div id="ideasContainer" class="ideas-grid"></div>
+
+</main>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

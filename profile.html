@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>IDEALAUNCH - Profile</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+        IDEA<span>LAUNCH</span>
+    </div>
+
+    <div class="nav-links">
+
+        <a href="dashboard.html">
+            Dashboard
+        </a>
+
+        <a href="explore.html">
+            Explore
+        </a>
+
+        <a href="saved.html">
+            Saved
+        </a>
+
+        <a href="profile.html">
+            Profile
+        </a>
+
+        <button class="logout">
+            Logout
+        </button>
+
+    </div>
+
+</nav>
+
+<main class="container">
+
+    <div class="profile-box">
+
+        <h1>Your Profile</h1>
+
+        <br>
+
+        <form id="profileForm">
+
+            <label>Name</label>
+
+            <br><br>
+
+            <input
+                type="text"
+                id="profileName"
+                required>
+
+            <button type="submit">
+                Update Profile
+            </button>
+
+            <p
+                id="profileMessage"
+                class="success">
+            </p>
+
+        </form>
+
+    </div>
+
+</main>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
